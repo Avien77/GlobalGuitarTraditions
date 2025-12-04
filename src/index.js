@@ -7,8 +7,11 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <h1 className='title'> Japanese City Pop</h1>
     <App />
+    <h2 className='paragraph'>Booty</h2>
   </React.StrictMode>
+  
 );
 
 // If you want to start measuring performance in your app, pass a function

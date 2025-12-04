@@ -5,9 +5,61 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
+  overflow-x: hidden;
 
+ 
+}
+.title{
+  opacity: 1;
+  text-align: center;
+  font-family: "Bodoniultraflf-lg90.ttf";
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2s;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.imageList:hover{
+  position: relative;
+  transform: scale(1.5);
+  z-index: 999;
+}
+
+.imageList{
+  transition:2s;
+}
+::-webkit-scrollbar {
+  background-color: transparent; /* Color of the thumb */
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 100px;
+  /* https://grabient.com/HQBgnAbANMAcCsAWGB2EAmKBaEwCMII2ueKKM6AzNDsImJrRAccJWHq3uubSJbBggIKIA */
+
+  background: linear-gradient(90deg, #07aeea 0.000%, #2bf598 100.000%);
+}
+/*
+Source - https://stackoverflow.com/a
+Posted by DigitalDesignDj
+Retrieved 2025-12-04, License - CC BY-SA 3.0
+*/
+
+.paragraph {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
 }
