@@ -7,7 +7,7 @@ const imageList = [
   "为什么我们又听起了 City-Pop？_ i-D.jpg",
   
   "download (2).jpg",
-  "hiroshi.jpg",
+  
   "Yasuha Fly-Day Chinatown Wallpaper.jpg",
   "Takuya Takahashi - Feel So Cool cassette (1979) city pop Japan.jpg",
   "masayoshi takanaka.jpg",
@@ -16,7 +16,7 @@ const imageList = [
   "Hear the world’s sounds.jpg",
   "Taeko Ohnuki.jpg",
   "anri.jpg",
-
+  "hiroshi.jpg",
 
 ];
 

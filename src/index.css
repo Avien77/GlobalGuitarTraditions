@@ -10,6 +10,8 @@ body {
  
 }
 .title{
+  position: relative;
+  z-index: 999;
   opacity: 1;
   text-align: center;
   font-family: "Bodoniultraflf-lg90.ttf";
@@ -24,13 +26,36 @@ code {
 }
 .imageList:hover{
   position: relative;
-  transform: scale(1.5);
-  z-index: 999;
+  transform: scale(1.2);
+  z-index: 998;
+  outline: 10px solid black;
 }
 
 .imageList{
   transition:2s;
 }
+
+.header {
+  display: flex;           /* This puts items in a row */
+  justify-content: center; /* This centers the group horizontally on the page */
+  align-items: center;     /* This centers them vertically (so text isn't at the top of the image) */
+  gap: 20px;               /* This adds space between the text and the image */
+  padding: 20px 0;         /* Adds a little breathing room top and bottom */
+}
+
+.header img{
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+
+
+.header h1 {
+  position: relative;
+}
+
+
 ::-webkit-scrollbar {
   background-color: transparent; /* Color of the thumb */
   width: 10px;
