@@ -28,7 +28,7 @@ code {
   position: relative;
   transform: scale(1.2);
   z-index: 998;
-  outline: 10px solid black;
+  outline: 3px solid black;
 }
 
 .imageList{
@@ -36,11 +36,10 @@ code {
 }
 
 .header {
-  display: flex;           /* This puts items in a row */
-  justify-content: center; /* This centers the group horizontally on the page */
-  align-items: center;     /* This centers them vertically (so text isn't at the top of the image) */
-  gap: 20px;               /* This adds space between the text and the image */
-  padding: 20px 0;         /* Adds a little breathing room top and bottom */
+  display: flex;           
+  justify-content: center; 
+  align-items: center;     
+  padding: 20px 0;         
 }
 
 .header img{
@@ -49,8 +48,35 @@ code {
   object-fit: contain;
 }
 
+.paragraph{
+  font-family: "Bodoniultraflf-lg90.ttf";
+  font-weight: lighter;
+  /*font-style: normal;*/
+  text-align: center;
+  padding-top: 50px;
+  padding-left: 150px;
+  padding-right: 150px;
+  color: rgb(48, 48, 48);
+}
 
-
+.beegHeader{
+  font-family: "Bodoniultraflf-lg90.ttf";
+  font-weight: bolder;
+  /*font-style: normal;*/
+  text-align: center;
+  padding-top: 50px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+.beegHeader2{
+  font-family: "Bodoniultraflf-lg90.ttf";
+  font-weight: bolder;
+  /*font-style: normal;*/
+  text-align: center;
+  padding-top: 150px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
 .header h1 {
   position: relative;
 }
