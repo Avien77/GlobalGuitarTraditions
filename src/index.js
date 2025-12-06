@@ -7,7 +7,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <div className='header'>
-    <h1 className='title'> Japanese City Pop</h1> <img src='vinyl.gif' className='vinyl'></img>
+    <h1 className='title'> Japanese City Pop</h1> <img src='vinyl.gif' alt='vinyl' className='vinyl'></img>
     </div>
     <App />
     <h1 className='beegHeader'>The Sound of City Pop</h1>
